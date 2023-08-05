@@ -4,4 +4,4 @@ FROM milesmcc/shynet:latest
 # ENV ADMIN_EMAIL=${ADMIN_EMAIL}
 # RUN echo "Admin email: " $ADMIN_EMAIL
 
-RUN ./manage.py registeradmin $ADMIN_EMAIL
+# RUN ./manage.py registeradmin $ADMIN_EMAIL
