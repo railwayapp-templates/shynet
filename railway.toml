@@ -6,4 +6,4 @@ dockerfilePath = "Dockerfile"
 numReplicas = 1
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
-startCommand = "echo starting!"
+startCommand = "./entrypoint.sh && echo $ADMIN_EMAIL"
