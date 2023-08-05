@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo "Starting..."
 echo $ADMIN_EMAIL
 ENV
 echo \"Admin Email : $ADMIN_EMAIL\"
