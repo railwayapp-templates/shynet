@@ -6,4 +6,5 @@ dockerfilePath = "Dockerfile"
 numReplicas = 1
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
-startCommand = "./entrypoint.sh && echo $ADMIN_EMAIL"
+startCommand = "./manage.py registeradmin $ADMIN_EMAIL && ./entrypoint.sh"
+
