@@ -4,7 +4,7 @@ ENV ADMIN_EMAIL=${ADMIN_EMAIL}
 
 COPY ./start-railway.sh .
 
-ENTRYPOINT ["./start-railway.sh"]
+CMD ["./start-railway.sh"]
 
 # RUN echo "Admin email: " $ADMIN_EMAIL
 
