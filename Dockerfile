@@ -2,9 +2,9 @@ FROM milesmcc/shynet:latest
 ARG ADMIN_EMAIL
 ENV ADMIN_EMAIL=${ADMIN_EMAIL}
 
-# COPY ./start-railway.sh .
+COPY ./start-railway.sh .
 
-# CMD ["./start-railway.sh"]
+RUN "./start-railway.sh"
 
 # RUN echo "Admin email: " $ADMIN_EMAIL
 
