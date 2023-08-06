@@ -1,5 +1,7 @@
 # Shynet on Railway
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/yW3Kos?referralCode=Matteo)
+
 ## Overview
 
 Shynet is a privacy-friendly, cookie-free web analytics tool. It's open source and self-hosted, allowing you to retain ownership of your data. Shynet provides valuable visitor information such as page views, sessions, load times, bounce rates, referrers, locations, and device types. It supports multiple users and sites, and offers collaboration features. While ideal for personal projects and small to medium-sized websites, Shynet may not be suitable for ultra-high traffic sites and requires technical expertise to deploy and maintain.
