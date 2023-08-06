@@ -32,3 +32,4 @@ Shynet is a privacy-friendly, cookie-free web analytics tool. It's open source a
 
 - [Shynet repo](https://github.com/milesmcc/shynet)
 - [Template repo](https://github.com/MatteoGauthier/shynet-railway)
+- [@MatteoGauthier_ Twitter](https://twitter.com/MatteoGauthier_)
