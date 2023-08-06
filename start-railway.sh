@@ -21,6 +21,7 @@ if [[ -v ADMIN_EMAIL && -n "$ADMIN_EMAIL" ]]; then
     fg %1
 
 else
+    ./entrypoint.sh
     echo "ADMIN_EMAIL is not defined. So not creating admin user"
 fi
   
