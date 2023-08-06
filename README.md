@@ -2,10 +2,10 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/yW3Kos?referralCode=Matteo)
 
-## Instructions (⚠️ Important ⚠️)
+## Instructions
 
 1. Click the Deploy template button above.
-2. Leave the ADMIN_EMAIL variable empty. (In order to apply the provision and the migrations of the DB)
+2. Leave the `ADMIN_EMAIL` variable empty. (In order to apply the provision and the migrations of the DB)
 3. Wait for the first deployement to succeed.
 4. Add to the Shynet service the environment variable `ADMIN_EMAIL` with your email address.
 5. A new deployment will be triggered and you will be able to access the admin panel with the email you provided.
