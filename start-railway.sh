@@ -11,13 +11,13 @@ create_admin_user() {
   fi
 }
 
-if [[ -v ADMIN_EMAIL ]]; then
+if [[ -v ADMIN_EMAIL && -n "$ADMIN_EMAIL" ]]; then
     echo "ADMIN_EMAIL is defined. So creating admin user."
     set -m
   
     ./entrypoint.sh &
       create_admin_user
-      
+
     fg %1
 
 else
