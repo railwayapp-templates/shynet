@@ -2,6 +2,14 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/yW3Kos?referralCode=Matteo)
 
+## Instructions (⚠️ Important ⚠️)
+
+1. Click the Deploy template button above.
+2. Leave the ADMIN_EMAIL variable empty. (In order to apply the provision and the migrations of the DB)
+3. Wait for the first deployement to succeed.
+4. Add to the Shynet service the environment variable `ADMIN_EMAIL` with your email address.
+5. A new deployment will be triggered and you will be able to access the admin panel with the email you provided.
+
 ## Overview
 
 Shynet is a privacy-friendly, cookie-free web analytics tool. It's open source and self-hosted, allowing you to retain ownership of your data. Shynet provides valuable visitor information such as page views, sessions, load times, bounce rates, referrers, locations, and device types. It supports multiple users and sites, and offers collaboration features. While ideal for personal projects and small to medium-sized websites, Shynet may not be suitable for ultra-high traffic sites and requires technical expertise to deploy and maintain.
