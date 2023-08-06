@@ -1,8 +1,9 @@
 #!/bin/bash
 
 echo "Starting..."
-echo $ADMIN_EMAIL
-ENV
+
+./entrypoint.sh
+
 echo \"Admin Email : $ADMIN_EMAIL\"
 
 ./manage.py registeradmin $ADMIN_EMAIL
