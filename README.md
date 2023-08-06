@@ -8,7 +8,7 @@
 2. Leave the `ADMIN_EMAIL` variable empty. (In order to apply the provision and the migrations of the DB)
 3. Wait for the first deployement to succeed.
 4. Add to the Shynet service the environment variable `ADMIN_EMAIL` with your email address.
-5. A new deployment will be triggered and you will be able to access the admin panel with the email you provided.
+5. A new deployment will be triggered, make sure to check out the "Deploy Logs" and see the password for the admin user in the logs.
 
 ## Overview
 
