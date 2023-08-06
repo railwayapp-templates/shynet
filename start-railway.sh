@@ -1,18 +1,18 @@
 #!/bin/bash
+
+create_admin_user() {
+  output=$(./manage.py registeradmin "$ADMIN_EMAIL" 2>&1) 
+
+  if [ $? -eq 1 ]; then  
+      echo "Error occured, user might already exist"    
+  else
+      echo "$output"  
+  fi
+}
   
-# turn on bash's job control
 set -m
   
-# Start the primary process and put it in the background
 ./entrypoint.sh &
+  create_admin_user
   
-# Start the helper process
-./manage.py registeradmin $ADMIN_EMAIL
-  
-# the my_helper_process might need to know how to wait on the
-# primary process to start before it does its work and returns
-  
-  
-# now we bring the primary process back into the foreground
-# and leave it there
 fg %1
