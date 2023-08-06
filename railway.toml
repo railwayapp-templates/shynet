@@ -6,4 +6,4 @@ dockerfilePath = "Dockerfile"
 numReplicas = 1
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
-startCommand = "timeout -s INT 10s python manage.py registeradmin test@example.com || ./entrypoint.sh"
+# startCommand = "timeout -s INT 10s python manage.py registeradmin test@example.com || ./entrypoint.sh"
